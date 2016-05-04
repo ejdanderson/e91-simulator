@@ -1,0 +1,3 @@
+[submodule "lib/qit-code-python"]
+	path = lib/qit-code-python
+	url = git://git.code.sf.net/p/qit/code-python
