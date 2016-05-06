@@ -105,7 +105,7 @@ def E91_simulate(n=5000, eveDetTol=0.1, eveInterceptRate=1):
 		# -thetaE here due to the way qit works, we want to "undo" the rotation
 		# done to the state by Alice
 		rotationE = makeRotOperator(-thetaE)
-		rotationOpE = kron(rotationE, identityOp)
+		rotationOpE = kron(rotationE, identityOp) # Kronecker tensor product
 		# Number of particles interceped, number of times her choice matched Alices
 
 		# Eve interception
